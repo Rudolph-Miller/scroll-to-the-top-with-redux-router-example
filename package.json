@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "watch": "`npm bin`/webpack -w",
+    "watch": "`npm bin`/webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +23,12 @@
     "webpack": "^1.12.9"
   },
   "dependencies": {
+    "history": "^1.17.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.1",
-    "redux": "^3.0.5"
+    "react-router": "^1.0.3",
+    "redux": "^3.0.5",
+    "redux-router": "^1.0.0-beta5"
   }
 }
