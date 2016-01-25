@@ -66,7 +66,18 @@ const reducer = combineReducers({
   router: routerStateReducer
 });
 
-const store = reduxReactRouter({routes, createHistory})(createStore)(reducer);
+const history = createHistory();
+
+history.listen(location => {
+  setTimeout(() => {
+    if (location.action === 'POP') {
+      return;
+    }
+    window.scrollTo(0, 0);
+  });
+});
+
+const store = reduxReactRouter({routes, history})(createStore)(reducer);
 
 class Root extends Component {
   render() {
