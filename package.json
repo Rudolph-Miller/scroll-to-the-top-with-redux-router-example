@@ -1,0 +1,31 @@
+{
+  "name": "scroll-to-the-top-with-redux-router-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "watch": "`npm bin`/webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rudolph-Miller/scroll-to-the-top-with-redux-router-example.git"
+  },
+  "author": "Rudolph-Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rudolph-Miller/scroll-to-the-top-with-redux-router-example/issues"
+  },
+  "homepage": "https://github.com/Rudolph-Miller/scroll-to-the-top-with-redux-router-example#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.1",
+    "redux": "^3.0.5"
+  }
+}
